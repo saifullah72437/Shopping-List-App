@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "520094775522",
+    "project_id": "shoping-list-app-e7e4a",
+    "storage_bucket": "shoping-list-app-e7e4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520094775522:android:18093fa7412e9b357386bb",
+        "android_client_info": {
+          "package_name": "com.saif.shopinglistapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520094775522-na4f652kg0g8c80q9r51uojllfmua4b5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsPXRG9BBI26lIbe_TcakZQ1o4MHY3jiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520094775522-na4f652kg0g8c80q9r51uojllfmua4b5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
