@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f6f8fa"
     tools:context=".NextActivity">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -34,9 +35,9 @@
             android:layout_height="0dp"
             android:background="@drawable/item_bg"
             android:layout_marginHorizontal="10dp"
-            android:backgroundTint="#D5C32A"
+            android:backgroundTint="@color/white"
             android:text="Log Out"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@+id/floatingActionButton"
             app:layout_constraintEnd_toStartOf="@+id/floatingActionButton"

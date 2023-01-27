@@ -34,8 +34,15 @@ ItemModel model;
 
     @Override
     protected void onBindViewHolder(@NonNull myadapter.myviewholder holder, int position, @NonNull ItemModel model) {
-        holder.title.setText(model.getTitle());
-        holder.desc.setText(model.getDesc());
+        String textTitle = model.getTitle();
+        String truncatedTextTitle = textTitle.substring(0, Math.min(textTitle.length(), 10));
+        holder.title.setText(truncatedTextTitle + "...");
+
+        String textDesc = model.getDesc();
+        String truncatedTextDesc = textDesc.substring(0, Math.min(textDesc.length(), 30));
+        holder.desc.setText(truncatedTextDesc + "...");
+//        holder.title.setText(model.getTitle());
+//        holder.desc.setText(model.getDesc());
         int imageId = R.drawable.delete;
         holder.deleteImg.setImageResource(imageId);
         holder.deleteImg.setOnClickListener(new View.OnClickListener() {
